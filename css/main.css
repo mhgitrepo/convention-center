@@ -2,6 +2,16 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 /* Utilities */
+.custom-navbar-toggler-icon{
+    background-image: url(../images/icon/nav-toggler.svg);
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
 .item-gap{
     margin-top: 8rem;
 }
@@ -12,7 +22,19 @@ body{
     object-fit: cover;
 }
 
-/* For Pricing Section */
+/* Main Section */
+.toast-custom-btn{
+    position: relative;
+    bottom: 12px;
+    width: 3px;
+}
+.tost-gift-icon::before{
+    content: "";
+    display: block;
+    background: url(../images/icon/gift.svg) no-repeat;
+    width: 30px;
+    height: 23px;
+}
 .col-custom{
     position: relative;
     top: 5.8rem;
@@ -58,6 +80,21 @@ body{
 .btn-hot{
     width: 77%;
 }
+
+/* Footer */
+footer .container{
+    height: 250px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* Media Query For Mobile */
