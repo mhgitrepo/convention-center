@@ -118,42 +118,44 @@
         <!-- Bonus Section: Our Location -->
         <section class="container mt-5">
             <h3 class="text-center fw-bold fs-2 mb-5 pb-2">Our Location</h3>
-            <table class="table table-bordered border-primary table-hover">
-                <thead>
-                    <tr class="bg-primary">
-                        <th scope="col" class="text-light">Division</th>
-                        <th scope="col" class="text-light">Area</th>
-                        <th scope="col" class="text-light">Availability</th>
-                        <th scope="col" class="text-light">Contact</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="table-success">
-                        <th scope="row">Dhaka</th>
-                        <td>47/5, AZ Street, Gulshan, Dhaka-1212</td>
-                        <td class="bg-info fw-bold">Available </td>
-                        <td>Ph: +8801715-000000, +8801912-000000</td>
-                    </tr>
-                    <tr class="table-primary">
-                        <th scope="row">Chattogram</th>
-                        <td>56, Pahartoli, Chittagong Sadar, Chattogram-4202</td>
-                        <td class="table-danger">Booked</td>
-                        <td>Ph: +8801715-000077, +8801912-000485</td>
-                    </tr>
-                    <tr class="table-primary">
-                        <th scope="row">Khulna</th>
-                        <td>GHA-74, Zero Point Bus Stop, Khulna-9260</td>
-                        <td class="table-danger">Booked</td>
-                        <td>Ph: +8801715-000008, +8801912-000030</td>
-                    </tr>
-                    <tr class="table-primary">
-                        <th scope="row">Sylhet</th>
-                        <td>86, Hajari Sharak, Zindabazar, Sylhet-3100</td>
-                        <td class="table-danger">Booked</td>
-                        <td>Ph: +8801715-000074, +8801912-000010</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="overflow-auto">
+                <table class="table table-bordered border-primary table-hover">
+                    <thead>
+                        <tr class="bg-primary">
+                            <th scope="col" class="text-light">Division</th>
+                            <th scope="col" class="text-light">Area</th>
+                            <th scope="col" class="text-light">Availability</th>
+                            <th scope="col" class="text-light">Contact</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-success">
+                            <th scope="row">Dhaka</th>
+                            <td>47/5, AZ Street, Gulshan, Dhaka-1212</td>
+                            <td class="bg-info fw-bold">Available </td>
+                            <td>Ph: +8801715-000000, +8801912-000000</td>
+                        </tr>
+                        <tr class="table-primary">
+                            <th scope="row">Chattogram</th>
+                            <td>56, Pahartoli, Chittagong Sadar, Chattogram-4202</td>
+                            <td class="table-danger">Booked</td>
+                            <td>Ph: +8801715-000077, +8801912-000485</td>
+                        </tr>
+                        <tr class="table-primary">
+                            <th scope="row">Khulna</th>
+                            <td>GHA-74, Zero Point Bus Stop, Khulna-9260</td>
+                            <td class="table-danger">Booked</td>
+                            <td>Ph: +8801715-000008, +8801912-000030</td>
+                        </tr>
+                        <tr class="table-primary">
+                            <th scope="row">Sylhet</th>
+                            <td>86, Hajari Sharak, Zindabazar, Sylhet-3100</td>
+                            <td class="table-danger">Booked</td>
+                            <td>Ph: +8801715-000074, +8801912-000010</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
 
         <!-- Our Package -->
@@ -304,24 +306,20 @@
     </main>
 
     <!-- Footer Section -->
-    <!-- <footer class="bg-dark item-gap">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 mx-auto">
-                    <p class="text-white">© 2022 Winston Party Palace. All rights reserved</p>
+    <footer class="bg-dark item-gap">
+        <div class="container p-5">
+            <div class="row footer-custom-section">
+                <div class="col-sm-12 col-md-9 col-lg-9 d-flex flex-column justify-content-center order-1 order-sm-1 order-md-0 order-lg-0 gy-4">
+                    <p class="text-white copyright-text">© 2022 Winston Party Palace. All rights reserved.</p>
                 </div>
-                <div class="col-lg-6">
-                    <div>
-                        <p class="text-white">Get the App</p>
-                        <div class="d-flex flex-column align-items-end">
-                            <img src="images/footer/apple-store.png" alt="" class="w-25">
-                            <img src="images/footer/google-playstore.png" alt="" class="w-25">
-                        </div>
-                    </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 d-flex flex-column justify-content-center align-items-center">
+                    <p class="text-white fs-5">Get the App</p>
+                    <img src="images/footer/apple-store.png" alt="" class="w-50 mb-2">
+                    <img src="images/footer/google-playstore.png" alt="" class="w-50">
                 </div>
             </div>
         </div>
-    </footer> -->
+    </footer>
 
     <!-- Boostrap JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
